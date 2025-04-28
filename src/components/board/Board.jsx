@@ -8,7 +8,7 @@ const Board = ({ color, size }) => {
     const ctxRef = useRef(null);
     const isDrawingRef = useRef(false);
     const timeoutRef = useRef(null);
-    const socket = useRef(io.connect("http://localhost:5000")); //https://group-study-backend.onrender.com 
+    const socket = useRef(io.connect("https://group-study-backend.onrender.com")); // http://localhost:5000
     useEffect(() => {
         const canvas = canvasRef.current;
         const ctx = canvas.getContext('2d');
