@@ -21,7 +21,10 @@ export default function SignIn() {
           <button className={'button mt-20'} type="submit">Sign In</button>
         </Link>
         <Link to={'/whiteboard'}>
-          <button className={'button mt-20'} type="button">whiteboard</button>
+          <button className={'button mt-20'} type="button">Whiteboard</button>
+        </Link>
+        <Link to={`/editor?name=${name}`}>
+          <button className={'button mt-20'} type="button">Document Editor</button>
         </Link>
       </div>
     </div>
