@@ -27,15 +27,15 @@ const Features = () => {
           <div className="feature-icon">
             <i className="icon-document"></i>
           </div>
-          <h3>Document Sharing</h3>
-          <p>Share notes, assignments, and study materials with your group members instantly.</p>
+          <h3>Real Time Whiteboard</h3>
+          <p>Teach and also learn from your friends with collaborative whiteboard.</p>
         </div>
         <div className="feature-card">
           <div className="feature-icon">
             <i className="icon-calendar"></i>
           </div>
-          <h3>Study Scheduler</h3>
-          <p>Plan your study sessions with an integrated calendar that syncs with everyone's availability.</p>
+          <h3>Document Editor</h3>
+          <p>Create notes with your friends using collaborative .</p>
         </div>
       </div>
     </section>
