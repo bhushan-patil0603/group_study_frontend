@@ -7,7 +7,7 @@ import queryString from 'query-string';
 
 import './Editor.css';
 
-const SOCKET_URL = 'http://localhost:5000'; // Backend URL
+const SOCKET_URL = 'https://group-study-backend.onrender.com';//'http://localhost:5000';
 
 const socket = io(SOCKET_URL, {
   withCredentials: true,
